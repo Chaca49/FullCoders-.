@@ -15,11 +15,12 @@ Algoritmo EmpresaViaje
 		Escribir "3.Salir"
 		leer destino
 		Si destino = 1 Entonces
-			intn[1] <- "Brasil"
-			intn[2] <- "Tour Europa"
-			intn[3] <- "New York"
-			intn[4] <- "Costa Rica"
-			intn[5] <- "Cuba"
+			Escribir "Ofrecemos los siguientes viajes internacionales"
+			intn[1] <- "Brasil: 800 USD"
+			intn[2] <- "Tour Europa: 2500 USD"
+			intn[3] <- "New York: 2000 USD"
+			intn[4] <- "Costa Rica: 1200 USD"
+			intn[5] <- "Cuba: 1300 USD"
 			CostoBrasil <- 800
 			CostoTourEuro <- 2500
 			CostoNewYork <- 2000
@@ -54,14 +55,14 @@ Algoritmo EmpresaViaje
 			Fin Si
 		Fin Si
 		Si destino = 2 Entonces
-			Nac[1]<- "Cataratas del Iguazu"
-			Nac[2]<- "Mar del Plata"
-			Nac[3]<- "Ushuaia"
-			Nac[4]<- "Colón, Entre Rios"
-			Nac[5]<- "Sierras de Calamuchita"
-			Nac[6]<- "Mendoza"
-			Nac[7]<- "Villa Carlos Paz"
-			Nac[8]<- "Tour Norte Argentino"
+			Nac[1]<- "Cataratas del Iguazu: 150 USD"
+			Nac[2]<- "Mar del Plata: 250 USD"
+			Nac[3]<- "Ushuaia: 400 USD"
+			Nac[4]<- "Colón, Entre Rios: 150 USD"
+			Nac[5]<- "Sierras de Calamuchita: 150 USD"
+			Nac[6]<- "Mendoza: 200 USD"
+			Nac[7]<- "Villa Carlos Paz: 150 USD"
+			Nac[8]<- "Tour Norte Argentino: 150 USD"
 			CostoIguazu <- 150
 			CostoMar <- 250
 			CostoUshuaia <- 400
